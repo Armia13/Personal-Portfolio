@@ -1,0 +1,319 @@
+body {
+  background-color: #fcf9ea;
+  background-image: url("images/floral.png");
+  font-size: 20px;
+  font-family: "Comfortaa", cursive;
+  width: 100%;
+  margin: 0;
+  padding: 5px;
+}
+
+h1,
+h3 {
+  font-family: "Yeseva One", cursive;
+  font-size: 4rem;
+  color: #66d4c9;
+  margin: 0;
+  text-align: center;
+}
+
+h2 {
+  font-family: "Yeseva One", cursive;
+  font-size: 2.8rem;
+  color: #66d4c9;
+  margin: 5px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+  background-color: #ffcc33;
+  padding: 5px;
+  overflow: hidden;
+}
+
+
+header img {
+  height: 100%;
+}
+nav ul {
+  display: flex;
+  margin: 0px;
+}
+
+li {
+  list-style: none;
+  margin: 0 30px;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 700;
+  color: #000000;
+  margin: 5px;
+}
+
+#projects a {
+  background-color: #ffcc33;
+}
+#welcome-section img {
+  width: 200px;
+  margin: 0;
+}
+
+#welcome-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  margin-bottom: 50px;
+}
+
+#about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.paragraph {
+  width: 90%;
+  text-align: center;
+  line-height: 30px;
+}
+/* Container for skill bars */
+.container {
+  width: 500px;
+  background-color: #ddd;
+  border-radius: 15px;
+  text-align: center;
+  border-bottom-right-radius: 225px 15px;
+  border-top-left-radius: 255px 15px;
+  border-top-right-radius: 15px 225px;
+  background-clip: inherit;
+}
+
+.skills {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.html {
+  width: 70%;
+  background-color: #ffcc33;
+  border-radius: 15px;
+  border-bottom-right-radius: 225px 15px;
+  border-top-left-radius: 255px 15px;
+  border-top-right-radius: 15px 225px;
+  background-clip: inherit;
+}
+.css {
+  width: 60%;
+  background-color: #f3b0ff;
+  border-radius: 15px;
+  border-bottom-right-radius: 225px 15px;
+  border-top-left-radius: 255px 15px;
+  border-top-right-radius: 15px 225px;
+  background-clip: inherit;
+}
+.js {
+  width: 45%;
+  background-color: #a6cfe3;
+  border-radius: 15px;
+  border-bottom-right-radius: 225px 15px;
+  border-top-left-radius: 255px 15px;
+  border-top-right-radius: 15px 225px;
+  background-clip: inherit;
+}
+.react {
+  width: 30%;
+  background-color: #ffcc33;
+  border-radius: 15px;
+  border-bottom-right-radius: 225px 15px;
+  border-top-left-radius: 255px 15px;
+  border-top-right-radius: 15px 225px;
+  background-clip: inherit;
+}
+.photoshop {
+  width: 50%;
+  background-color: #f3b0ff;
+  border-radius: 15px;
+  border-bottom-right-radius: 225px 15px;
+  border-top-left-radius: 255px 15px;
+  border-top-right-radius: 15px 225px;
+  background-clip: inherit;
+}
+
+.skills p {
+  color: #000000;
+  text-align: left;
+  margin: 10px;
+}
+
+#projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.projects-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.projects-grid img {
+  width: 400px;
+  height: 200px;
+  margin: 0px;
+  border-bottom-left-radius: 15px 255px;
+  border-bottom-right-radius: 225px 15px;
+  border-top-left-radius: 255px 15px;
+  border-top-right-radius: 15px 225px;
+  background-clip: inherit;
+  border: 2px solid #ffcc33;
+}
+
+.project-title {
+  text-align: center;
+  margin: 10px;
+}
+
+.projects-grid a {
+  margin-bottom: 20px;
+  border-bottom-right-radius: 225px 15px;
+  border-top-left-radius: 255px 15px;
+  border-top-right-radius: 15px 225px;
+  background-clip: inherit;
+}
+
+#contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.profile img {
+  height: 50px;
+  margin: 10px 20px;
+}
+
+.email img {
+  height: 40px;
+  margin: 0;
+}
+.email {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* #profile-container{
+  display: flex;
+} */
+
+.bold-para {
+  font-size: 2rem;
+  text-align: center;
+  font-weight: 700;
+}
+
+.email p {
+  margin: 0 10px;
+  font-size: 1.7rem;
+}
+@media (max-width: 740px) {
+  li {
+    margin: 0 10px;
+  }
+}
+
+@media (max-width: 630px) {
+  header img {
+    width: 150px;
+  }
+  li {
+    margin: 0 5px;
+    font-size: 18px;
+  }
+  .container {
+    width: 490px;
+  }
+  header {
+    justify-content: space-around;
+  }
+}
+
+@media (max-width: 500px) {
+  .container {
+    width: 470px;
+  }
+  h3 {
+    font-size: 2.5rem;
+  }
+}
+@media (max-width: 470px) {
+  header {
+    flex-direction: column;
+    justify-content: center;
+  }
+  h3 {
+    font-size: 2.2rem;
+  }
+  ul{
+    padding: 0;
+  }
+  li {
+    font-size: 15px;
+    margin: 8px;
+  }
+
+  .bio {
+    width: 280px;
+  }
+
+  .container {
+    width: 260px;
+  }
+  .projects-grid img {
+    width: 250px;
+    height: 150px;
+  }
+
+  .email p {
+    font-size: 1.3rem;
+    margin: 0 7px;
+  }
+.bold-para{
+  font-size: 1.5rem;;
+}
+  .email img{
+    height: 30px;
+    
+  }
+
+  .prof-links{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
